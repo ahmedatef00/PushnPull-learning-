@@ -34,9 +34,9 @@ function ShortPooling () {
       const handleSubmit = (e) => {
         e.preventDefault(); //prevent refresh
     
-        // axios.post('http://localhost:5005/messages',{content:input,username:inputname})//in your body post the content from value
+        axios.post('http://localhost:5005/messages',{content:input,username:inputname})//in your body post the content from value
     
-        axios.post('http://localhost:5005/messageSubscribers', { content: input, username: inputname })//in your body post the content from value
+        // axios.post('http://localhost:5005/messageSubscribers', { content: input, username: inputname })//in your body post the content from value
     
       }
 

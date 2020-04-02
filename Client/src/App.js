@@ -1,13 +1,12 @@
 import React from 'react';
-import short from './compnents/ShortPooling';
-import long from './compnents/LongPooling';
+import ShortPooling from './compnents/ShortPooling';
 import LongPooling from './compnents/LongPooling';
 
 
 function App() {
   return (
-    // < short />
-    <LongPooling/>
+    < ShortPooling />
+    // <LongPooling/>
   );
 }
 
